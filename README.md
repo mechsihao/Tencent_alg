@@ -22,7 +22,7 @@
     |--click_log.csv
     |--ad.csv
 ```
-运行至如下命令行：
+将w2v_trainer.ipynb运行至如下命令行：
 ```python
     logger = initiate_logger('input_generate.log')
     generate(logger=logger) 
@@ -54,7 +54,7 @@
     |--train_product_category_id_seq.pkl
     |--train_product_id_seq.pkl
 ```
-运行如下命令行：
+将w2v_trainer.ipynb运行至如下命令行：
 ```python
     i = 0
     for target in corpus_dic.keys():
